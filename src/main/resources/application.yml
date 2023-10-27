@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://app_dbl:5432/sales_points
+    username: admin
+    password: 12345
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
+springdoc:
+  swagger-ui:
+    path: /swagger-ui/index.html
